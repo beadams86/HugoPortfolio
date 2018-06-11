@@ -1,0 +1,35 @@
+baseURL = "localhost:1313/"
+languageCode = "en-us"
+
+[params] # theme parameters
+    tagline = "Engineering Design" # Splash Intro Text
+    info = "UI/UX Designer and Frontend Developer in Washington D.C."
+    description = "Ben Adams' design portfolio" # site description"
+    keywords = "designer,developer,user experience" # site keywords"
+
+    # wether you want to hide copyright in footer
+    hideCopyright = false
+    
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/beadams86"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/beadams86"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/beadams86"
+
+# Menu links
+[[menu.main]]
+    name = "Portfolio"
+    weight = 1
+    url  = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"

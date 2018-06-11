@@ -1,0 +1,111 @@
+@import 'base';
+
+body{
+    font-family:'Cabin', Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding:10rem 0;
+}
+
+.navbar{padding:3rem 0;}
+
+.navbar-menu{
+    list-style-type:none;
+    .navbar-menu-item{
+        list-style-type:none;
+        display:inline;
+        margin-right:1.5rem;
+
+        &:last-of-type{margin-right:0;}
+        .navbar-menu-item-link{
+            color:$dark-gray;
+            padding-left:.5rem;
+            padding-right:.5rem;
+            text-transform:uppercase;
+            font-size:0.9em;
+            font-weight:800;
+            &:hover{border-bottom:2px solid $primary;}
+        }
+    }
+}
+
+.intro {
+    h1{
+        font-size:5rem;
+        font-weight:700;
+        margin:0;
+    }
+    h4{font-weight:400;color:$med-gray;margin-top:1rem;}
+}
+
+.portfolio-item{
+    min-height:400px;
+    display:block;
+    width:100%;
+    background-size:cover;
+    position:relative;
+    margin-bottom:5rem;
+    transition:all 0.5s;
+
+    .portfolio-item-text{
+        opacity:0;
+        visibility:hidden; 
+        transition:all 0.5s;
+        position:absolute;
+        bottom:0;
+        left:0;
+        top:0;
+        display:flex;
+        align-items:flex-end;
+        background:linear-gradient(360deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.0) 100%);
+        width:100%;
+        padding-top:5rem;
+
+        h3, p{margin:3rem;color:#fff;}
+    }
+
+    &:hover{
+	-webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    box-shadow:3px 3px 24px rgba(0,0,0,0.1);
+    }
+    &:hover .portfolio-item-text{
+        opacity:1.0;
+        visibility:visible;
+    }
+}
+
+.portfolio-header{
+    background-size:cover;
+    min-height:500px;
+    position:relative;
+    display:flex;
+    align-items:flex-end;
+    padding:0;
+
+    &:before{
+        position:absolute;
+        content:'';
+        width:100%;
+        height:100%;
+        background:linear-gradient(360deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.0) 100%);
+    }
+}
+
+.container-floating{
+    margin-top:-70px;
+    padding:5rem;
+    background:#fff;
+    h1{margin-top:1rem;}
+    .label{text-transform:uppercase;color:$med-gray;}
+}
+
+
+
+footer.footer{
+    padding:5rem 0;
+    border-top:1px solid $light-gray;
+
+    a{color:$med-gray;}
+}

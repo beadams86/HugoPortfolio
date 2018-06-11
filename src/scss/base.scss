@@ -1,0 +1,55 @@
+
+//colors 
+$primary: #4277FF;
+$secondary: #b0e7ff;
+
+$dark-gray: #222;
+$light-gray:#eeedea;
+$med-gray:#9FA2B2;
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  color: $dark-gray;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a{
+  text-decoration:none;
+  color:$primary;
+}
+
+hr {
+  background-color: #f1f1f1;
+  border: none;
+  display: block;
+  height: 1px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+.hidden{
+  visibility:hidden;
+}
+
+ul.inline{
+  display:block;
+  list-style-type:none;
+
+  li{
+    display:inline;
+    margin-right:1.5rem;
+    list-style-type:none;
+  
+  &:last-of-type{margin-right:0;}}
+}
+
+.text-right{text-align:right;}
+.text-left{text-align:left;}
+.text-center{text-align:center;}

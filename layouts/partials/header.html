@@ -1,0 +1,20 @@
+<nav class="navbar">
+  <div class="container">
+    <div class="row">
+        <div class="three columns">
+          <a href="{{ .Site.BaseURL }}" class="navbar-logo"><img src="images/logo/B.svg" alt="Ben Adams Logo"></a>
+        </div>
+        {{ with .Site.Menus.main }}
+        <div class="nine columns text-right">
+        <ul class="navbar-menu">
+          {{ range sort . }}
+          <li class="navbar-menu-item">
+            <a class="navbar-menu-item-link" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          <li class="navbar-menu-item"><a href="mailto:bennettadams@hotmail.com" class="navbar-menu-item-link">Email Me</a></li>
+        </ul>
+      </div>
+        {{ end }}
+      </div>
+    </nav>

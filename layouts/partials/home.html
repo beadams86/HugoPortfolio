@@ -1,0 +1,23 @@
+  <section class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="nine columns">
+          <h1>{{ .Site.Params.tagline }}</h1>
+          <h4>{{ .Site.Params.info }}</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="container">
+      {{ range where .Data.Pages "Params.type" "portfolio"}}
+      <a href="{{ .URL }}" class="portfolio-item" style="background-image:url('{{.Site.BaseURL}}{{ .Params.image }}');">
+          <div class="portfolio-item-text">
+              <h3>{{ .Title }}</h3>
+          </div>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+
