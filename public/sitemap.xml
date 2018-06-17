@@ -3,56 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>./portfolio/earth-science-redesign/</loc>
+    <loc>/portfolio/earth-science-redesign/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>./portfolio/phrhero/</loc>
+    <loc>/portfolio/phrhero/</loc>
     <lastmod>2018-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>./</loc>
+    <loc>/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>./about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>./categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>./portfolio/</loc>
+    <loc>/portfolio/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>./tags/tagone/</loc>
+    <loc>/tags/tagone/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>./tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>./tags/tagthree/</loc>
+    <loc>/tags/tagthree/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>./tags/tagtwo/</loc>
+    <loc>/tags/tagtwo/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>./tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="./tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tagone</title>
-      <link>./tags/tagone/</link>
+      <link>/tags/tagone/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>./tags/tagone/</guid>
+      <guid>/tags/tagone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tagthree</title>
-      <link>./tags/tagthree/</link>
+      <link>/tags/tagthree/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>./tags/tagthree/</guid>
+      <guid>/tags/tagthree/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tagtwo</title>
-      <link>./tags/tagtwo/</link>
+      <link>/tags/tagtwo/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>./tags/tagtwo/</guid>
+      <guid>/tags/tagtwo/</guid>
       <description></description>
     </item>
     
