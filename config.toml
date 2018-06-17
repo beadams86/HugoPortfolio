@@ -1,4 +1,4 @@
-baseURL = "localhost:1313/"
+baseURL = "https://quizzical-carson-887e2f.netlify.com/"
 languageCode = "en-us"
 
 [params] # theme parameters

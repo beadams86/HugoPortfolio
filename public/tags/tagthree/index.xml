@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tagthree on </title>
-    <link>localhost:1313/tags/tagthree/</link>
+    <link>https://quizzical-carson-887e2f.netlify.com/tags/tagthree/</link>
     <description>Recent content in Tagthree on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="localhost:1313/tags/tagthree/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://quizzical-carson-887e2f.netlify.com/tags/tagthree/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Earth Science Organization</title>
-      <link>localhost:1313/portfolio/earth-science-redesign/</link>
+      <link>https://quizzical-carson-887e2f.netlify.com/portfolio/earth-science-redesign/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/portfolio/earth-science-redesign/</guid>
+      <guid>https://quizzical-carson-887e2f.netlify.com/portfolio/earth-science-redesign/</guid>
       <description>Lorem ipsum</description>
     </item>
     
     <item>
       <title>Medical Record Startup</title>
-      <link>localhost:1313/portfolio/phrhero/</link>
+      <link>https://quizzical-carson-887e2f.netlify.com/portfolio/phrhero/</link>
       <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/portfolio/phrhero/</guid>
+      <guid>https://quizzical-carson-887e2f.netlify.com/portfolio/phrhero/</guid>
       <description>Lorem ipsum</description>
     </item>
     
