@@ -12,7 +12,7 @@
 
 <section class="portfolio">
   <div class="container">
-    {{ range where .Data.Pages "Params.type" "portfolio"}}
+    {{ range .Data.Pages }}
     <a href="{{ .URL }}" class="portfolio-item" style="background-image:url('{{.Site.BaseURL}}{{ .Params.image }}');">
         <div class="portfolio-item-text">
             <h3>{{ .Title }}</h3>
