@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>localhost:1313/portfolio/earth-science-redesign/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/portfolio/phrhero/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/about/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/portfolio/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/tags/tagone/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/tags/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/tags/tagthree/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/tags/tagtwo/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
