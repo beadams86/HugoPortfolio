@@ -5,7 +5,7 @@ body{
 }
 
 section{
-    padding:10rem 0;
+    padding:5rem 0;
 }
 
 .navbar{padding:3rem 0;}
@@ -31,6 +31,7 @@ section{
 }
 
 .intro {
+    padding:10rem 0;
     h1{
         font-size:5rem;
         font-weight:700;
@@ -47,7 +48,7 @@ section{
     position:relative;
     margin-bottom:5rem;
     transition:all 0.5s;
-
+    box-shadow:3px 3px 24px rgba(0,0,0,0.1);
     .portfolio-item-text{
         opacity:0;
         visibility:hidden; 
@@ -68,7 +69,7 @@ section{
     &:hover{
 	-webkit-transform: scale(1.01);
     transform: scale(1.01);
-    box-shadow:3px 3px 24px rgba(0,0,0,0.1);
+    box-shadow:3px 3px 24px rgba(0,0,0,0.2);
     }
     &:hover .portfolio-item-text{
         opacity:1.0;
@@ -101,7 +102,44 @@ section{
     .label{text-transform:uppercase;color:$med-gray;}
 }
 
+.floating-content__container{
+    display:flex;
 
+    .image-container{
+        flex:1;
+        width:60%;
+        min-height:300px;
+        background-size:cover;
+        position:relative;
+        &:before{
+            content:'';
+            position:absolute;
+            width:100%;
+            height:100%;
+            background:linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0.5) 100%);
+            z-index:0;
+        }
+    }
+
+    .floating-content{
+        flex:1;
+        width:40%;
+        margin-left:-5rem;
+        margin-top:5rem;
+        z-index:2;
+
+        h1{font-size:8rem;font-weight:900;line-height:1;}
+        p{background:#fff;padding:3rem;color:$med-gray;}
+    }
+}
+
+.mini-heading{
+    color:$med-gray;
+    font-weight:300;
+    font-size:1.2rem;
+    margin-bottom:.5rem;
+    text-transform:uppercase;
+}
 
 footer.footer{
     padding:5rem 0;
