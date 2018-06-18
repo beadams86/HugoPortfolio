@@ -3,10 +3,10 @@ languageCode = "en-us"
 
 [params] # theme parameters
     tagline = "Engineering Design" # Splash Intro Text
-    info = "UI/UX Designer and Frontend Developer in Washington D.C."
-    description = "Ben Adams' design portfolio" # site description"
-    keywords = "designer,developer,user experience" # site keywords"
-
+    info = "Ben Adams, a UI/UX Designer and Frontend Developer in Washington D.C."
+    description = "Ben Adams' Design Portfolio" # site description"
+    keywords = "UI, UX, User Experience, Frontend Development, Mockups, Wireframes, Prototypes, React, HTML, CSS, JS" # site keywords"
+    author = "Bennett (Ben) Adams"
     # wether you want to hide copyright in footer
     hideCopyright = false
     
