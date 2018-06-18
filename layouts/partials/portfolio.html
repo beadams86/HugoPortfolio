@@ -1,6 +1,11 @@
 <section class="portfolio full-portfolio">
     <div class="container">
-        <h1 class="marg-bot-5">Some selected work</h1>
+        <div class="row">
+            <div class="seven columns">
+                    <h1 class="marg-bot-5">Some selected work</h1>
+            </div>
+        </div>
+        
         <div class="row">
             {{ range where .Site.Pages "Params.type" "portfolio"}}
             <div class="six columns">
