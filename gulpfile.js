@@ -19,5 +19,14 @@ gulp.task("watch", ["scss"], function () {
     gulp.watch("src/scss/**/*", ["scss"])
 })
 
+var gulp = require('gulp');
+var htmlmin = require('gulp-htmlmin');
+ 
+gulp.task('minify', function() {
+  return gulp.src('src/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('public'));
+});
+
 // Set watch as default task
 gulp.task("default", ["watch"])

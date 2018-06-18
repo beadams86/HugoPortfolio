@@ -12,5 +12,8 @@
   "devDependencies": {
     "gulp-autoprefixer": "^5.0.0",
     "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^4.0.0"
   }
 }
