@@ -94,6 +94,14 @@ section{
     }
 }
 
+.full-portfolio {
+    .row .four:first-of-type{
+        width:100%;
+    }
+    .four.columns{width:30%;margin-right:3%;margin-left:0;
+        &:last-of-type{margin-right:0;}
+    }
+}
 .container-floating{
     margin-top:-70px;
     padding:5rem;
