@@ -10,10 +10,13 @@
   </div>
 </section>
 
-<section class="portfolio">
+<section class="portfolio intro-portfolio">
     <div class="container">
         {{ range where .Site.Pages "Params.type" "portfolio"}}
         <a href="{{ .URL }}" class="portfolio-item" style="background-image:url('{{.Site.BaseURL}}{{ .Params.image }}');">
+            <div class="portfolio-item__labels">
+              <label>{{ .Type }}</label>
+            </div>
             <div class="portfolio-item-text">
                 <h3>{{ .Title }}</h3>
             </div>

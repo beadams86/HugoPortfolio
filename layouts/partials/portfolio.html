@@ -3,7 +3,7 @@
         <h1 class="marg-bot-5">Some selected work</h1>
         <div class="row">
             {{ range where .Site.Pages "Params.type" "portfolio"}}
-            <div class="four columns">
+            <div class="six columns">
                 <a href="{{ .URL }}" class="portfolio-item" style="background-image:url('{{.Site.BaseURL}}{{ .Params.image }}');">
                     <div class="portfolio-item-text">
                         <h3>{{ .Title }}</h3>

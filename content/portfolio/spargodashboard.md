@@ -1,6 +1,6 @@
 +++ 
 date = "2017-04-00"
-title = "Spargo Dashboard Redesign"
+title = "Spargo Hotel Reservation Dashboard Redesign"
 image = "images/portfolio/spargodashboard_preview.jpg"
 splash = "images/portfolio/earthscience/splash.jpg"
 slug = "spargo-dashboard" 
