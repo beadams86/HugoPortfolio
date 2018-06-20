@@ -4,7 +4,7 @@
     <div class="row">
       <div class="nine columns">
         <h1>{{ .Site.Params.tagline }}</h1>
-        <h4>{{ .Site.Params.info }}</h4>
+        <p class="sub-title">{{ .Site.Params.info }}</p>
       </div>
     </div>
   </div>
@@ -15,9 +15,10 @@
         {{ range where .Site.Pages "Params.type" "portfolio"}}
         <a href="{{ .URL }}" class="portfolio-item" style="background-image:url('{{.Site.BaseURL}}{{ .Params.image }}');">
             <div class="portfolio-item__labels">
-              <label>{{ .Type }}</label>
+              Full Case Study
             </div>
             <div class="portfolio-item-text">
+                <label>{{ .Type }}</label>
                 <h3>{{ .Title }}</h3>
             </div>
         </a>

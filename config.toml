@@ -3,7 +3,7 @@ languageCode = "en-us"
 
 [params] # theme parameters
     tagline = "Engineering Design" # Splash Intro Text
-    info = "Ben Adams, a UI/UX Designer and Frontend Developer in Washington D.C."
+    info = "Ben Adams is a Designer and Developer living in Washington DC. Going beyond wireframes, mockups and diagrams, he has years of frontend development experience."
     description = "Ben Adams' Design Portfolio" # site description"
     keywords = "UI, UX, User Experience, Frontend Development, Mockups, Wireframes, Prototypes, React, HTML, CSS, JS" # site keywords"
     author = "Bennett (Ben) Adams"
