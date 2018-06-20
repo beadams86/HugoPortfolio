@@ -52,7 +52,7 @@ section{
         font-weight:700;
         margin:0;
     }
-    p{font-weight:300;font-size:1.7em;color:$med-gray;margin-top:1rem;}
+    p{font-weight:300;font-size:1.5em;color:$med-gray;margin-top:1rem;}
 
     @media screen and (max-width:$screen-md){
         padding:5rem 0;
@@ -231,7 +231,23 @@ section{
         z-index:2;
 
         h1{font-size:8rem;font-weight:900;line-height:1;}
-        p{background:#fff;padding:3rem;color:$med-gray;}
+        p{background:#fff;padding:3rem;color:$med-gray;font-weight:300;}
+
+    }
+
+    @media screen and (max-width:$screen-md){
+        flex-direction: column;
+        .image-container{
+            width:100%;
+        }
+        .floating-content{
+            flex:1;
+            width:100%;
+            margin-left:0;
+            h1{font-size:4rem;}
+            p{padding:0;}
+        }
+        
     }
 }
 
