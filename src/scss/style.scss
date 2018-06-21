@@ -63,7 +63,7 @@ section{
 }
 
 .portfolio-item{
-    min-height:400px;
+    min-height:450px;
     display:block;
     width:100%;
     background-size:cover;
@@ -71,16 +71,16 @@ section{
     margin-bottom:8rem;
     transition:all 0.5s;
     box-shadow:$box-shadow-subtle;
+    position:relative;
 
     .portfolio-item-text{
         transition:all 0.5s;
         position:absolute;
         bottom:0;
         left:3rem;
-        bottom:-3rem;
-        box-shadow:$box-shadow-subtle;
+        bottom:3rem;
         background:#fff;
-        width:40%;
+        width:50%;
         height:auto;
         padding:3rem;
         transition:all 0.3s;
@@ -92,6 +92,7 @@ section{
 
     &:hover{
         box-shadow:$box-shadow-medium;
+        transform: scale(1.01);
     }
 
     .portfolio-item__labels{
@@ -119,12 +120,10 @@ section{
             bottom:auto;
             top:1.5rem;}
         .portfolio-item-text{
-            width:90%;
+            width:calc(100% - 3rem);
             padding:0;
-            padding-right:5%;
-            left:0;
-            right:0;
-
+            left:1.5rem;
+            bottom:1.5rem;
             label{margin:3rem;margin-bottom:0;}
             h3{font-size:2rem;margin:3rem; margin-top:1.5rem;}
         }
@@ -143,7 +142,12 @@ section{
     position:absolute;
     width:100%;
     bottom:0;
-    height:0;
+    height:100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.0) 100%);
+    @media screen and (max-width:$screen-md){
+        height:100%;
+        background:linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.0) 100%);
+    }
 }
 
 .portfolio-item:hover{
