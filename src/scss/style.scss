@@ -84,7 +84,7 @@ section{
         padding:3rem;
         transition:all 0.3s;
         
-        h3, label{display:block;width:100%;margin:0;}
+        h3, label{display:block;width:90%;margin:0;}
         h3{color:$dark-gray;}
         label{margin-bottom:1rem;}
     }
@@ -174,34 +174,46 @@ section{
     }
 }
 
+.portfolio-image{
+    margin:5rem auto;
+}
 .full-portfolio {
-    h1{font-size:7rem;}
-    @media screen and (max-width:$screen-md){
-        h1{font-size:4rem;}
-    }
-    .portfolio-item{
-        margin-bottom:0;
-        &:hover{
-            -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    box-shadow:3px 3px 24px rgba(0,0,0,0.2);
-    z-index:9999;
-        }
-    }
-    .row .six:first-of-type{
+    .row .six:first-child{
         width:100%;
     }
     .six.columns{
         margin-left:0;
-        width:50%;
+    @media screen and (min-width:$screen-md){
+        .six.columns{
+            margin-left:0;
+            width:50%;
+        }
+    }
+}
+    .portfolio-item{margin-bottom:0;}
+    .portfolio-item .portfolio-item-text{
+        opacity:0.0;
+        transition:all 0.3s;
+        width:70%;
+    }
+
+    .portfolio-item:hover{
+        .portfolio-item-text{
+            opacity:1.0;
+            z-index:999;
+        }
     }
 }
 .container-floating{
     margin-top:-70px;
-    padding:5rem;
+    padding-top:5rem;
     background:#fff;
     h1{margin-top:1rem;}
     .label{text-transform:uppercase;color:$med-gray;}
+
+    @media screen and (max-width: $screen-sm){
+        margin-top:0;
+    }
 }
 
 .floating-content__container{
@@ -257,6 +269,8 @@ section{
     font-size:1.2rem;
     margin-bottom:.5rem;
     text-transform:uppercase;
+
+    span{margin-right:1.5rem;}
 }
 
 footer.footer{

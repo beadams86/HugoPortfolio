@@ -2,16 +2,14 @@
     <section class="portfolio-header" style="background-image:url('{{.Site.BaseURL}}{{ .Params.splash }}');"></section>
     <div class="container container-floating">
       <div class="row">
-        <div class="eight columns">
-            <span class="label">{{ .Params.type }}</span>
+        <div class="eight columns offset-by-two">
+            <h5 class="mini-heading">
+                {{ range .Params.tags }}
+                    <span>{{ . }}</span> 
+                {{ end }}
+            </h5>
             <h1>{{ .Title }}</h1>
-        </div>
-        <div class="four columns">
-          {{ range .Params.tags }}
-            <ul>
-              <li>{{ . }}</li>
-            </ul>
-          {{ end }}
+            <p>{{ .Params.blurb }}</p>
         </div>
       </div>
         
@@ -19,5 +17,5 @@
     <section>
         <div class="container">
           {{ .Content }}
-        <div class="container">
+        </div>
     </section>
