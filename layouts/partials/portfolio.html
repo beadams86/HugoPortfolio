@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="seven columns">
-                    <h1 class="marg-bot-5">Some selected work</h1>
+                    <h1 class="marg-bot-5 intro-animate__1">Some selected work</h1>
             </div>
         </div>
         
-        <div class="row">
+        <div class="row  intro-animate__2">
             {{ range where .Site.Pages "Params.type" "portfolio"}}
             <div class="six columns">
                 <a href="{{ .URL }}" class="portfolio-item" style="background-image:url('{{.Site.BaseURL}}{{ .Params.image }}');">

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile App Design on </title>
+    <link>/tags/mobile-app-design/</link>
+    <description>Recent content in Mobile App Design on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/mobile-app-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Medical Record Startup</title>
+      <link>/portfolio/phrhero/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/phrhero/</guid>
+      <description>Lorem ipsum</description>
+    </item>
+    
+  </channel>
+</rss>

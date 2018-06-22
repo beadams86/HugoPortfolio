@@ -2,9 +2,16 @@
 
 section{
     padding:5rem 0;
+    @media screen and (max-width:$screen-sm){
+        padding:3rem 0;
+    }
 }
 
-.navbar{padding:3rem 0;}
+.navbar{
+    padding:3rem 0;
+    @media screen and (min-width:$screen-lg){
+        padding:5rem 0;}
+}
 
 .navbar .container{
     display:flex;
@@ -31,11 +38,11 @@ section{
         &:last-of-type{margin-right:0;}
         .navbar-menu-item-link{
             color:$dark-gray;
-            padding-left:.5rem;
-            padding-right:.5rem;
+            padding:.5rem;
             text-transform:uppercase;
-            font-size:0.9em;
-            font-weight:800;
+            font-size:0.8em;
+            transition:all 0.3s;
+            border-bottom:3px solid transparent;
             &:hover{border-bottom:2px solid $primary;}
         }
     }
@@ -47,17 +54,24 @@ section{
 
 .intro {
     padding:10rem 0;
+
+
     h1{
-        font-size:6rem;
-        font-weight:700;
+        font-size:8rem;
+        font-weight:400;
         margin:0;
-        margin-bottom:2rem;
+        margin-bottom:3rem;
+
+        span{display:block;}
+
     }
-    p{font-weight:300;font-size:1.5em;color:$med-gray;margin-top:1rem;}
+    p{
+        font-weight:300;color:$med-gray;margin-top:1rem;
+    }
 
     @media screen and (max-width:$screen-md){
         padding:5rem 0;
-        h1{font-size:4rem;margin-bottom:0;}
+        h1{font-size:4rem;}
         p{font-size:1em;}
     }
 }
@@ -85,7 +99,7 @@ section{
         padding:3rem;
         transition:all 0.3s;
         
-        h3, label{display:block;width:90%;margin:0;}
+        h3, label{display:block;width:80%;margin:0;}
         h3{color:$dark-gray;}
         label{margin-bottom:1rem;}
     }
@@ -116,6 +130,7 @@ section{
 
     @media screen and (max-width:$screen-md){
         min-height:300px;
+        margin-bottom:3rem;
         .portfolio-item__labels{
             bottom:auto;
             top:1.5rem;}
@@ -183,19 +198,11 @@ section{
     margin:5rem auto;
 }
 .full-portfolio {
-    .row .six:first-child{
-        width:100%;
-    }
-    .six.columns{
+
+    .columns.six:nth-child(3){
         margin-left:0;
-    @media screen and (min-width:$screen-md){
-        .six.columns{
-            margin-left:0;
-            width:50%;
-        }
     }
-}
-    .portfolio-item{margin-bottom:0;}
+    .portfolio-item{margin-bottom:5rem;}
     .portfolio-item .portfolio-item-text{
         opacity:0.0;
         transition:all 0.3s;
@@ -242,12 +249,13 @@ section{
 
     .floating-content{
         flex:1;
-        width:40%;
+        width:35%;
+        max-width:550px;
         margin-left:-5rem;
         margin-top:5rem;
         z-index:2;
 
-        h1{font-size:8rem;font-weight:900;line-height:1;}
+        h1{font-size:8rem;line-height:1;}
         p{background:#fff;padding:3rem;color:$med-gray;font-weight:300;}
 
     }

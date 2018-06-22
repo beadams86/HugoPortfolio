@@ -27,6 +27,7 @@ body {
   font-size:16px;
   line-height:1.6;
   font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;
+
 }
 
 a{
@@ -49,7 +50,7 @@ img {
 
 h1, h2, h3, h4, h5{
   font-family: 'Playfair Display', serif;
-  font-weight:900;
+  font-weight:400;
 }
 
 h1{font-size:5rem;}
@@ -70,7 +71,7 @@ ul.inline{
 }
 label{
   color:$med-gray;
-  font-weight:bold;
+  font-weight:normal;
   letter-spacing:1px;
   text-transform:uppercase;
   font-size:0.75em;
@@ -81,7 +82,7 @@ ul.no-bullets{
   li{margin-bottom:0;}
 }
 @media screen and (max-width:$screen-sm){
-  .container{width:90%;}
+
 }
 @media screen and (min-width:$screen-lg){
   body{font-size:18px;}
@@ -111,3 +112,50 @@ ul.no-bullets{
 .marg-top-0{margin-top:0;}
 .marg-bot-5{margin-bottom:5rem;}
 .marg-top-5{margin-top:5rem;}
+
+
+.intro-animate__1{
+  opacity:0;
+  -webkit-animation: opacity 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+
+
+.intro-animate__2{
+opacity:0;
+-webkit-animation: opacity 1.5s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-delay:1s;
+animation-fill-mode: forwards;
+animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.intro-animate__3{
+  opacity:0;
+  -webkit-animation: opacity 1.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-delay:1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+.intro-animate__fast{
+  opacity:0;
+  -webkit-animation: opacity .5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-delay:0;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  @keyframes opacity {
+    from { opacity:0;}
+    to   { opacity:1.0;}
+  }

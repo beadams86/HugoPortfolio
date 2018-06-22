@@ -2,8 +2,8 @@ baseURL = "/"
 languageCode = "en-us"
 
 [params] # theme parameters
-    tagline = "Engineering Design" # Splash Intro Text
-    info = "Ben Adams is a Designer and Developer living in Washington DC. Going beyond wireframes, mockups and diagrams, he also has years of frontend development experience."
+    tagline = "Ben Adams, Engineering Design" # Splash Intro Text
+    info = "I'm a Designer and Developer living in Washington DC. As a designer with a passion for clean code, I go beyond wireframes, mockups, and diagrams."
     description = "Ben Adams' Design Portfolio" # site description"
     keywords = "UI, UX, User Experience, Frontend Development, Mockups, Wireframes, Prototypes, React, HTML, CSS, JS" # site keywords"
     author = "Bennett (Ben) Adams"

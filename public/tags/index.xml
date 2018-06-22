@@ -6,15 +6,24 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Mobile App Design</title>
+      <link>/tags/mobile-app-design/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mobile-app-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tagone</title>
       <link>/tags/tagone/</link>
-      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/tagone/</guid>
       <description></description>
@@ -23,7 +32,7 @@
     <item>
       <title>Tagthree</title>
       <link>/tags/tagthree/</link>
-      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/tagthree/</guid>
       <description></description>
@@ -32,9 +41,27 @@
     <item>
       <title>Tagtwo</title>
       <link>/tags/tagtwo/</link>
-      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/tagtwo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ui/Ux Design</title>
+      <link>/tags/ui/ux-design/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ui/ux-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>/tags/web-development/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/web-development/</guid>
       <description></description>
     </item>
     
