@@ -137,7 +137,7 @@ animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
 
 .intro-animate__3{
   opacity:0;
-  -webkit-animation: opacity 1.5s;
+  -webkit-animation: slideUp 1.5s;
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-delay:1.5s;
@@ -147,7 +147,7 @@ animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
 
 .intro-animate__fast{
   opacity:0;
-  -webkit-animation: opacity .5s;
+  -webkit-animation: slideUp .5s;
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-delay:0;
@@ -155,7 +155,33 @@ animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   }
 
+.intro-animate__fast-down{
+  opacity:0;
+  -webkit-animation: slideDown .5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-delay:0;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  
+
   @keyframes opacity {
     from { opacity:0;}
     to   { opacity:1.0;}
+  }
+
+  @keyframes slideUp {
+    from { opacity:0;margin-bottom:5rem;}
+    to   { opacity:1.0;margin-bottom:0; margin-bottom:0;}
+  }
+
+  @keyframes slideDown {
+    from { opacity:0;margin-top:-5rem;}
+    to   { opacity:1.0;margin-top:0; margin-bottom:0;}
+  }
+
+  @keyframes slideLeft {
+    from { opacity:0;padding-left:5rem;}
+    to   { opacity:1.0;padding-top:0; margin-bottom:0;}
   }
