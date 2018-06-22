@@ -53,8 +53,9 @@ type = "portfolio"
 
 <div class="row">
     <div class="eight columns offset-by-two">
-        <h3>Implementation and Final Comps</h3>
+        <h3>Final Assets &amp; Implementation</h3>
         <p>The workflow on this project may seem odd to some, because not only was I the sole designer, but I also helped to implement the designs by writing frontend code with a couple other talented developers. What I would often do is prototype some designs in Sketch + Invision, get buy-in from stakeholders, then build out the HTML, CSS and JS where necessary. Then where necessary the full-stack developers would link the frontend code up with the CMS (Django + Wagtail).</p>
     </div>
 </div>
 <img src="images/portfolio/earthscience/Tools_Comp.jpg" class="portfolio-image" />
+<img src="images/portfolio/earthscience/icons.png" class="portfolio-image" />

@@ -10,7 +10,7 @@
   </div>
 </section>
 
-<section class="portfolio intro-portfolio intro-animate__3">
+<section class="portfolio intro-portfolio">
     <div class="container">
         {{ range where .Site.Pages "Params.type" "portfolio"}}
         <a href="{{ .URL }}" class="portfolio-item" style="background-image:url('{{.Site.BaseURL}}{{ .Params.image }}');">
