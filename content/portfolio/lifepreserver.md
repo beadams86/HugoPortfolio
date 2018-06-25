@@ -18,6 +18,13 @@ type = "portfolio"
 
 <div class="row">
     <div class="eight columns offset-by-two">
+        <h3>Web Login / Sign-Up</h3>
+    </div>
+</div>
+<img src="images/portfolio/LP/WebLogin.png" class="portfolio-image" />
+
+<div class="row">
+    <div class="eight columns offset-by-two">
         <h3>Helpful and Intuitive Checklist</h3>
     </div>
 </div>
