@@ -57,16 +57,17 @@ section{
 
 
     h1{
-        font-size:8rem;
+        font-size:7rem;
         font-weight:400;
         margin:0;
         margin-bottom:3rem;
+        line-height:1.1;
 
         span{display:block;}
 
     }
     p{
-        font-weight:300;color:$med-gray;margin-top:1rem;font-size:1.5em;
+        font-weight:300;color:$med-gray;margin-top:1rem;font-size:1.25em;
     }
 
     @media screen and (max-width:$screen-md){
