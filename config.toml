@@ -28,8 +28,10 @@ languageCode = "en-us"
 [[menu.main]]
     name = "Portfolio"
     weight = 1
-    url  = "/portfolio/"
+    url  = "/"
 [[menu.main]]
     name = "About"
     weight = 2
     url = "/about/"
+
+    SectionPagesMenu = "main"

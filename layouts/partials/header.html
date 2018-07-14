@@ -7,8 +7,8 @@
         <div class="nav-menu text-right">
         <ul class="navbar-menu">
           {{ range sort . }}
-          <li class="navbar-menu-item">
-            <a class="navbar-menu-item-link" href="{{ .URL }}">{{ .Name }}</a>
+          <li {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }}>
+            <a class="navbar-menu-item-link" href="{{ .URL }}" >{{ .Name }}</a>
           </li>
           {{ end }}
           <li class="navbar-menu-item"><a href="mailto:bennettadams@hotmail.com" class="navbar-menu-item-link">Email Me</a></li>

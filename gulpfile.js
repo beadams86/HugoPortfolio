@@ -1,6 +1,9 @@
 var gulp         = require("gulp"),
     sass         = require("gulp-sass"),
-    autoprefixer = require("gulp-autoprefixer")
+    autoprefixer = require("gulp-autoprefixer"),
+    concat = require('gulp-concat'),
+    rename = require('gulp-rename'),
+    uglify = require('gulp-uglify')
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
@@ -13,6 +16,19 @@ gulp.task("scss", function () {
         }))
         .pipe(gulp.dest("static/css"))
 })
+
+//script paths
+var jsFiles = 'src/js/*.js',
+    jsDest = 'static/js';
+
+gulp.task('scripts', function() {
+    return gulp.src(jsFiles)
+        .pipe(concat('main.js'))
+        .pipe(gulp.dest(jsDest))
+        .pipe(rename('main.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest(jsDest));
+});
 
 // Watch asset folder for changes
 gulp.task("watch", ["scss"], function () {

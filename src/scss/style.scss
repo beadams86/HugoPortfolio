@@ -30,7 +30,7 @@ section{
 
 .navbar-menu{
     list-style-type:none;
-    .navbar-menu-item{
+    li{
         list-style-type:none;
         display:inline;
         margin-right:1.5rem;
@@ -42,8 +42,13 @@ section{
             text-transform:uppercase;
             font-size:0.8em;
             transition:all 0.3s;
-            border-bottom:3px solid transparent;
-            &:hover{border-bottom:2px solid $primary;}
+            position:relative;
+        }
+
+        &.active{
+            .navbar-menu-item-link{
+                border-bottom:2px solid $light-gray;
+            }
         }
     }
 
@@ -176,8 +181,6 @@ section{
     }
 }
 
-
-
 .portfolio-header{
     background-size:cover;
     min-height:500px;
@@ -198,24 +201,19 @@ section{
 .portfolio-image{
     margin:5rem auto;
 }
-.full-portfolio {
 
-    .columns.six:nth-child(3){
-        margin-left:0;
-    }
-    .portfolio-item{margin-bottom:5rem;}
-    .portfolio-item .portfolio-item-text{
-        opacity:0.0;
-        transition:all 0.3s;
-        width:70%;
-    }
+.dribbble-shot_container{
+    padding:10rem 0;
 
-    .portfolio-item:hover{
-        .portfolio-item-text{
-            opacity:1.0;
-            z-index:999;
+    @media screen and (min-width:$screen-xs){
+        .four.columns{
+            margin-left:0;
+            margin:0;
+            width:33.3333333%;
         }
     }
+    
+
 }
 .container-floating{
     margin-top:-70px;
