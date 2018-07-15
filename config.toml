@@ -1,7 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
+title = "Ben Adams' Design Portfolio"
 
 [params] # theme parameters
+    
     tagline = "Ben Adams, Engineering Design" # Splash Intro Text
     info = "I'm a Designer and Developer living in Washington DC. As a designer with a passion for clean code, I go beyond wireframes, mockups, and diagrams."
     description = "Ben Adams' Design Portfolio" # site description"
@@ -26,10 +28,12 @@ languageCode = "en-us"
 
 # Menu links
 [[menu.main]]
+    title = "Ben Adams' Design Portfolio"
     name = "Portfolio"
     weight = 1
     url  = "/"
 [[menu.main]]
+    title = "About Designer Ben Adams"
     name = "About"
     weight = 2
     url = "/about/"
