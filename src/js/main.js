@@ -12,7 +12,7 @@ $.ajax({
           $('#dribbbleShots').prepend(
             '<div class="four columns" target="_blank" href="'+ val.html_url +'" title="' + val.title + '"><img src="'+ val.images.hidpi +'"/></li>'
             )
-            return i<8;
+            return i<5;
         })
         
       }

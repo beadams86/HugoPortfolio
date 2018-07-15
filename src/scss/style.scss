@@ -30,12 +30,14 @@ section{
 
 .navbar-menu{
     list-style-type:none;
+    margin:0;
     li{
         list-style-type:none;
         display:inline;
         margin-right:.5rem;
 
         &:last-of-type{margin-right:0;}
+        
         .navbar-menu-item-link{
             color:$dark-gray;
             padding:.5rem 1.5rem;
@@ -47,6 +49,9 @@ section{
             white-space: nowrap;
             overflow:hidden;
 
+            @media screen and (max-width:$screen-sm){
+                padding:.5rem;
+            }
             span{
                 position:relative;
                 width:100%;
@@ -55,21 +60,22 @@ section{
 
             strong{
                 position:absolute;
-                top:10px;
+                top:15px;
                 left:-150px;
-                width:80%;
-                height:2rem;
+                width:90%;
+                height:1.5rem;
                 background:$light-gray;
                 z-index: 1;
                 transition:all 0.5s;
             }
         }
-
-        &.active, &:hover{
-            .navbar-menu-item-link{
-               strong{
-                left:-10px;
-               }
+        &:hover .navbar-menu-item-link strong{
+            left:-10px;
+        }
+        &.active .navbar-menu-item-link {
+            font-weight:bold;
+            strong{
+            left:-10px;
             }
         }
     }
