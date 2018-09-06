@@ -230,14 +230,22 @@ section{
     margin:5rem auto;
 }
 
+.portfolio-video{border:3px solid $light-gray;}
+
 .dribbble-shot_container{
     padding:10rem 0;
+    background:$light-gray;
 
+    .four.columns{
+        margin-bottom:5rem;
+
+        img{
+            box-shadow:3px 8px 20px rgba(0,0,0,0.05);
+        }
+    }
     @media screen and (min-width:$screen-xs){
-        .four.columns{
+        .four.columns:nth-child(4n){
             margin-left:0;
-            margin:0;
-            width:33.3333333%;
         }
     }
     

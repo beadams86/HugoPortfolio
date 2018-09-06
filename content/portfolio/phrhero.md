@@ -43,6 +43,9 @@ type = "portfolio"
 <div class="text-center">
 <img src="images/portfolio/phrhero/webSignup.jpg" class="portfolio-image" />
 </div>
+<video src="images/portfolio/phrhero/WebSignup.mp4" controls style="width:100%" class="portfolio-image portfolio-video">
+    <p>Sorry, your browser doesn't support html5 video :-( </p>
+</video>
 <div class="row">
     <div class="eight columns offset-by-two">
         <h3>Mobile Dashboard</h3>
