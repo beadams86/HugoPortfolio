@@ -6,10 +6,20 @@
     <description>Recent content on Ben Adams&#39; Design Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UI/UX Design &amp; Development for Biobanking App</title>
+      <link>/portfolio/biobank-design/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/biobank-design/</guid>
+      <description>Uncharted territory The biggest challenge of this project was that it was attempting to solve multiple, very complex problems, most of all the connecting of disparate data from various systems with their own formats.
+Our team noticed early on the potential issues with an overly-complex application that was trying to do too much, and we convinced stakeholders to scale back the features in order to focus on the core of the application: Connecting disparate data Analyzing the connected data</description>
+    </item>
     
     <item>
       <title>Earth Science Organization Redesign &amp; Style Guide</title>
