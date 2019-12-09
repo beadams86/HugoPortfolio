@@ -1,5 +1,6 @@
 @import 'base';
-
+$primary:#111;
+$light-gray:#fafafe;
 section{
     padding:5rem 0;
     @media screen and (max-width:$screen-sm){
@@ -107,6 +108,35 @@ section{
         padding:5rem 0;
         h1{font-size:4rem;}
         p{font-size:1em;}
+    }
+}
+.button{
+&.button-primary{
+    background-color:$primary;
+    border-color:$primary;
+}
+}
+.portfolio-item-nav {
+
+    a{
+        border-top:1px solid $light-gray;
+        background:$primary;
+        margin:30px;
+        display:block;
+        color:#fff;
+        padding:5rem;
+        text-align:center;
+        font-size:1.5em;
+        transition:all 0.3s;
+        border:5px solid transparent;
+        box-shadow:1px 3px 12px rgba(0,0,0,0.1);
+        img{margin-right:15px;}
+        &:hover{
+            background:#000000;
+            box-shadow:none;
+            color:$light-gray;
+            transform: scale(1.025);
+        }
     }
 }
 
@@ -229,7 +259,14 @@ section{
 .portfolio-image{
     margin:5rem auto;
 }
-
+.callout{
+    text-align:center;
+    background:$light-gray;
+}
+.contact-image{
+    margin:5rem auto;
+    max-width:310px;
+}
 .portfolio-video{border:3px solid $light-gray;}
 
 .dribbble-shot_container{
