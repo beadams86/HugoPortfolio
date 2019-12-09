@@ -1,5 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
+publishDir = "docs"
 title = "Ben Adams' Design Portfolio"
 
 [params] # theme parameters

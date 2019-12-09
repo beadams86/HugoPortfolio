@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Ben Adams&#39; Design Portfolio</title>
+    <link>/portfolio/</link>
+    <description>Recent content in Portfolios on Ben Adams&#39; Design Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Earth Science Organization Redesign &amp; Style Guide</title>
+      <link>/portfolio/earth-science-redesign/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/earth-science-redesign/</guid>
+      <description>Simple but complex One of the biggest challenges of the project involved the website&#39;s audience. Because it catered to a wide range of users, from seasoned scientists, to college students, we had to find a way to make the content accessible, without watering it down.
+So first, we needed to make sure that the content was arranged in such a way that it was clear and findable by all our users.</description>
+    </item>
+    
+    <item>
+      <title>Medical Record Startup</title>
+      <link>/portfolio/phrhero/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/phrhero/</guid>
+      <description>Beta Signup and Branding Phase one of this project involved me creating a recognizable brand, informing users about what the brand does, and then hopefully getting users to sign up for beta
+The phrHero branding and identity embodies the values that the company hopes to convey. It wants to rescue it&#39;s users from the complications of personal medical records. This is where the playful hero character came from...
+   Educate our audience A well thought-out beta sign-up website helped us to engage our users, while educating them at the same time</description>
+    </item>
+    
+    <item>
+      <title>Life Preserver Mobile App Personal Project</title>
+      <link>/portfolio/life-preserver/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/life-preserver/</guid>
+      <description>Onboarding   Web Login / Sign-Up   Helpful and Intuitive Checklist   </description>
+    </item>
+    
+    <item>
+      <title>Spargo Hotel Reservation Dashboard Redesign</title>
+      <link>/portfolio/spargo-dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/spargo-dashboard/</guid>
+      <description>Admin Dashboard Home   </description>
+    </item>
+    
+  </channel>
+</rss>
