@@ -87,24 +87,32 @@ section{
 .intro {
     padding:7rem 0 10rem;
 
+    .badge{
+        color:$med-gray;
+        text-transform: uppercase;
+        display:inline-block;
+        margin-right:3rem;
+        margin-bottom:1.5rem;
+        color:$accent-gray-med;
+    }
 
     h1{
-        font-size:7rem;
-        font-weight:400;
+        font-size:9rem;
+        font-weight:700;
         margin:0;
-        margin-bottom:3rem;
+        margin-bottom:0;
         line-height:1.1;
 
         span{display:block;}
 
     }
     p{
-        font-weight:300;color:$med-gray;margin-top:1rem;font-size:1.25em;
+        font-weight:300;color:$med-gray;margin-top:1rem;font-size:1.15em;
     }
 
     @media screen and (max-width:$screen-md){
         padding:5rem 0;
-        h1{font-size:4rem;}
+        h1{font-size:6rem;}
         p{font-size:1em;}
     }
 }

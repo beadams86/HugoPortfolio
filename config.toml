@@ -5,8 +5,8 @@ title = "Ben Adams' Design Portfolio"
 
 [params] # theme parameters
     
-    tagline = "Ben Adams, Engineering Design" # Splash Intro Text
-    info = "I'm a Designer and Developer living in Washington DC. As a designer with a passion for clean code, I go beyond wireframes, mockups, and diagrams."
+    tagline = "Ben Adams, Designer + Developer" # Splash Intro Text
+    info = "Based in D.C., I've been building stuff on the web for close to a decade. I like to stay involved from start-to-finish, combining user-centered design principles with a passion for writing clean, accessible code."
     description = "An online portfolio showcasing the work and professional experience of designer and developer Ben Adams" # site description"
     keywords = "UI, UX, User Experience, Frontend Development, Mockups, Wireframes, Prototypes, React, HTML, CSS, JS" # site keywords"
     author = "Bennett (Ben) Adams"
