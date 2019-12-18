@@ -1,6 +1,8 @@
 @import 'base';
 $primary:#111;
+$blue: #4A90E2;
 $light-gray:#fafafe;
+$med-gray:#E5E6F1;
 section{
     padding:5rem 0;
     @media screen and (max-width:$screen-sm){
@@ -65,7 +67,7 @@ section{
                 left:-150px;
                 width:90%;
                 height:1.5rem;
-                background:$light-gray;
+                background:$med-gray;
                 z-index: 1;
                 transition:all 0.5s;
             }
