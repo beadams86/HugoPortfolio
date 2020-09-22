@@ -6,10 +6,21 @@
     <description>Recent content in Ui/Ux Design on Ben Adams&#39; Design Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ui/ux-design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Design System, Component Library, &amp; Logo for Ocean Science Org</title>
+      <link>/portfolio/ocean-repo/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/ocean-repo/</guid>
+      <description>First thing&#39;s first...IA! Before jumping into screens and component libraries we needed to figure out exactly what the client wanted to build, and how they wanted to organize it.
+We held many sessions with the client to flesh out these details, including a card sort exercise that ultimately helped us produce an Information Architecture (IA) that we could all agree on.
+  Creating a Style Guide One of the main tasks for this project was to modernize the look and feel of the website in a way that better conveyed the organization&#39;s well respected reputation.</description>
+    </item>
     
     <item>
       <title>UI/UX Design &amp; Development for Biobanking App</title>
