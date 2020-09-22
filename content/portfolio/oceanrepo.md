@@ -1,6 +1,6 @@
 +++ 
 date = "2020-04-20"
-title = "Design System, Component Library, & Logo for Ocean Science Org"
+title = "Full UI/UX Overhaul for an Ocean Sciences Org"
 blurb = "A well respected oceanographic data management office was in serious need of a new website that not only reflected their organization's prestige, but was also more intuitive for their wide range of user types. It was up to me to work with the organization's leaders to create a modern, relevant design system, as well as a flexible component library that could be used to build out the website. To help validate the designs we did some user testing with a prototype of the website, and I even designed a new, fresh logo as a fun, bonus deliverable!"
 image = "images/portfolio/oceanrepo_preview.jpg"
 splash = "images/portfolio/oceanrepo_preview.jpg"
@@ -46,11 +46,19 @@ type = "portfolio"
 </div>
 
 
-<div class="iframe-scroller" >
+<div class="iframe-scroller">
 <label class="marg-bot-0">Best viewed on larger screens...</label>
     <iframe 
         seamless src="https://priceless-booth-470cc3.netlify.app/components.html"></iframe>
 </div>
+
+<div class="row marg-top-5">
+    <div class="eight columns offset-by-two">
+        <h3>Bonus: Logo Design!</h3>
+        <p>I also provided one bonus deliverable to really help tie together the updated design of the site with the client's brand...a fresh logo! I wanted to make sure the new logo paid homage to the existing one, so I created a fresh, minimal version of the globe-based logo that would be much more flexible, from mobile to desktop to print.</p>
+    </div>
+</div>
+<img src="images/portfolio/ocean-repo/BCO-DMO-Logo.png" class="portfolio-image" />
 
 <div class="row marg-top-5">
     <div class="eight columns offset-by-two">
