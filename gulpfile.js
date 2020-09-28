@@ -45,4 +45,4 @@ gulp.task('minify', function() {
 });
 
 // Set watch as default task
-gulp.task("default", ["watch"])
+gulp.task("default", ["watch", "scripts", "minify"])

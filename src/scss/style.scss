@@ -108,7 +108,7 @@ section{
 
     }
     p{
-        font-weight:300;color:$med-gray;margin-top:1rem;font-size:1.15em;
+        font-weight:300;color:$dark-gray;margin-top:1rem;font-size:1.15em;
     }
 
     @media screen and (max-width:$screen-md){
@@ -296,20 +296,38 @@ section{
 .dribbble-shot_container{
     padding:10rem 0;
     background:$light-gray;
-
-    .four.columns{
-        margin-bottom:5rem;
-
-        img{
-            box-shadow:3px 8px 20px rgba(0,0,0,0.05);
-        }
-    }
-    @media screen and (min-width:$screen-xs){
-        .four.columns:nth-child(4n){
-            margin-left:0;
-        }
-    }
     
+
+    #dribbbleShots{
+        display:flex;
+        width:100%;
+        flex-wrap:wrap;
+        list-style-type: none;
+
+        .dribbble-shot{
+            margin:0 2% 3rem 0;
+            padding:0;
+            width:23.5%;
+            
+            @media screen and (min-width:$screen-md){
+                &:nth-child(4n){
+                    margin-right:0;
+                }
+            }
+            img{
+                box-shadow:3px 8px 20px rgba(0,0,0,0.05);
+            }
+
+            @media screen and (max-width:$screen-md){
+                width:47%;
+                margin-right:6%;
+                &:nth-child(2n){
+                    margin-right:0;
+                }
+            }
+        }
+        
+    }
 
 }
 .container-floating{
@@ -383,8 +401,21 @@ section{
 }
 
 footer.footer{
+    background:$primary;
     padding:5rem 0;
-    border-top:1px solid $light-gray;
+    color:$light-gray;
+    a{color:white;}
 
-    a{color:$med-gray;}
+    .navbar-logo{
+        background:white;
+        padding:0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:0 auto;
+        width:45px;
+        height:45px;
+        text-align:center;
+        border-radius:50%;
+    }
 }

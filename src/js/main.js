@@ -1,5 +1,5 @@
 // Set the Access Token
-var accessToken = "5eb0a8b0f354099ba8611cfffb46c3a9de3c0b2f5bbe4ff7de22d51d990bd18c"
+var accessToken = "2a40e1da51330b10dbf09f78d847ffeef4082a982cb1caf50af675670bd78fa7"
 
 // Call Dribble v2 API
 $.ajax({
@@ -10,9 +10,9 @@ $.ajax({
       if (data.length > 0) { 
         $.each(data.reverse(), function(i, val) {     
           $('#dribbbleShots').prepend(
-            '<div class="four columns" target="_blank" href="'+ val.html_url +'" title="' + val.title + '"><img src="'+ val.images.hidpi +'"/></li>'
+            '<li class="dribbble-shot"><a target="_blank" href="'+ val.html_url +'" title="' + val.title + '"><img src="'+ val.images.hidpi +'"/></a></li>'
             )
-            return i<5;
+            return i<7;
         })
         
       }
